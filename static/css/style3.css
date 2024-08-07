@@ -1,0 +1,13 @@
+/* main styles */
+h1 {
+    text-align: center;
+    color: cyan;
+    background-color: darkblue;
+}
+
+p {
+    color: cyan;
+    background-color: darkolivegreen;
+}
+
+/* Add other styles as needed */

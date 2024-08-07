@@ -1,0 +1,94 @@
+/* Global styles */
+body {
+    margin: 0; /* `0` ishlatish yaxshiroq bo'ladi, chunki `1` o'lchov sifatida noto'g'ri */
+}
+
+/* Footer styles */
+.bottom {
+    margin-top: 150px;
+}
+
+/* Container styles */
+.Container {
+    color: brown;
+    padding: 10px 30px; /* paddingni bir martada sozlash */
+    border: 10px solid red;
+    width: 90%;
+    margin: 0 auto;
+    background-color: cyan;
+}
+
+.Container2 {
+    padding: 10px 30px; /* paddingni bir martada sozlash */
+    width: 90%;
+    margin: 0 auto;
+    border: 10px dashed peru;
+    color: purple;
+    background-color: aqua;
+    margin-top: 10px;
+}
+
+/* Header styles within Container */
+.Container h1 {
+    text-align: center;
+}
+
+/* Header styles within Container2 */
+.Container2 h2 {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* text-shadow o'lchamlari to'g'ri yozilgan */
+}
+
+/* Button styles */
+.button {
+    color: rgb(23, 23, 132);
+    background-color: red;
+    font-size: 18px;
+    border: 5px dashed #203642;
+    padding: 5px 10px;
+    border-radius: 50%; /* border-radius qiymati yaxshilandi */
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: yellowgreen;
+    color: wheat;
+}
+
+/* Box-3 styles */
+.Box-3 {
+    margin: 30px 5px;
+    color: plum;
+    border: 10px solid #555024;
+    background-color: darkgreen;
+}
+
+.Box-3 h1 {
+    text-align: center;
+    color: cyan;
+    font-family: sans-serif;
+}
+
+/* List styles in Box-3 */
+.Categories li { /* `Catigories` ni `Categories` deb tuzating */
+    list-style-type: none;
+    padding: 5px 0;
+    border-bottom: 1px solid red;
+}
+
+/* Form styles */
+.myForm {
+    margin: 30px 10px;
+}
+
+.myForm label {
+    display: block;
+    font-size: 20px;
+    color: #3a7ca0;
+}
+
+.myForm input, .myForm textarea {
+    margin: 8px 0;
+    padding: 5px;
+    width: 70%;
+}

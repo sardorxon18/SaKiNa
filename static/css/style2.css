@@ -1,0 +1,35 @@
+/* style2.css */
+
+.main-header {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin: 20px;
+}
+
+.main-text {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+.extra-text {
+    font-size: 0.9em;
+    color: #777;
+    margin: 20px;
+}
+
+.signin-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signin-button:hover {
+    background-color: #0056b3;
+}

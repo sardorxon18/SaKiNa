@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Django Framework</title>
+</head>
+
+<body>
+
+    <div class="marquee">
+        <b>Hi! Bro Welcome to Sardorxon's Site</b>
+    </div>
+
+    <div class="box">
+        <div class='headline'>
+            <br>
+            <h1> Beauty and the Beast</h1>
+            <h5> Express Publishing Graded Readers Level 1 </h5>
+            <div class="cls"></div>
+            <h4>Retold by Jenny Dooley </h4>
+            <br>
+            <h2>Chapter 1 The Castle </h2>
+        </div>
+        <div class="topic">
+            <ul>
+                <li><a href="https://t.me/Sardorxon_Dev" target="_blank"> my Telegram</a> </li>
+                <li><a href="{% url 'simple' %}">simple</a> </li>
+                <li><a href="{% url 'salom' %}">salom</a> </li>
+                <li><a href="{% url 'htmlandcss' %}">My html file</a> </li>
+                <li><a href="{% url 'basic' %}">Css Course</a> </li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="text1">
+                <br>
+                <hr>
+                <p>A very long time ago, on a small farm, there lived a poor farmer with his three daughters. He never
+                    made much money as his farm was very small. When he was a young man, he lost the most valuable thing in his life. His beautiful and kind wife died when their last baby daughter was born. Now his daughters were almost young women, but the farmer still felt the same pain in his heart for her. One day, he called his girls.
+                    "Girls! Listen to me! We have more fruit from our trees, and more wheat from our fields, than ever before. I can sell a lot of food this year and buy a new cart.
+                    Gertrude, his eldest daughter was very happy about this.
+                    "Good! Because I cannot walk to the village any more, or carry wood for the fire. I need a cart."
+                    Ursula, his second daughter, was also happy about it.
+                    "Can I come with you, Father? I want to see the town for once!'
+                    "I can't take you with me. You must help your sisters with the work on the farm. But I will bring each of you a present."
+                    "I want a new satin dress! An expensive one!"
+                    "I want some new clothes, too. And I want some jewellery - a necklace and a ring!
+                    "Well, girls, I will buy you what I can."
+                    Then he looked at his youngest daughter.
+                    "What do you want from the town?"</p>
+                <p>
+                    "Father, I only want you to come back home safely."
+                    The farmer saw in her kind face the face of his dear, sweet wife. But then his other daughters
+                    shouted.
+                    "You only say that because you want to make us look selfish!"
+                    "Don't listen to her, Father! She likes this poor life on the farm. She is stupid!"
+                    This was not true; she was very clever. She was also very beautiful. And that was why her name was
+                    Beauty.
+                    The farmer looked at the older girls. Why were they so unkind? He looked at Beauty and smiled at
+                    her.
+                    "Come on, my love, let me bring you a present. Tell me, what do you want?"
+                    "Alright, Father. Will you bring me a rose?"
+                    "A rose? Why, only a rose my dear, when you could have a present?"
+                    "A rose looks so pretty, Father. And when you touch it, it is like silk, so soft. And the smell -
+                    there
+                    is no perfume as lovely as a
+                    rose."
+                    "Yes, my dear. You are right. I will bring you one."
+                    The next day the farmer left early in the morning. It was a long journey through the forest. He
+                    stayed
+                    in a small inn, and the next day he went to the market.
+                    "Oh dear! Carts are very expensive! I can only buy a very small one."
+                    After that, he looked at clothes for his daughters, but they were very expensive, too.
+                    "I only have enough money for one dress and a pair of shoes. It is better than nothing."
+                    When the farmer left the town the next day, the weather was terrible. It was a cold, November day,
+                    the sky was grey and</p>
+            </div>
+            <div class="text2">
+
+                <p>
+                    heavy and the wind was strong. As he left the town it started to snow. It was pretty at first, but an
+                    hour later he began to worry.
+                    He took the horse into the forest but there was no path, just deep snow.
+                    "It isn't possible - I have lived here all my life, but now I'm lost!'
+                    The weather got worse and worse. It was nearly dark, and the farmer was scared as he was now
+                    completely lost.
+                    Just then, the horse began to go faster. It found a path, and it followed it.
+                    Faster and faster the horse went, into the deep snow. Then suddenly there were no more trees - just
+                    a big, open space.
+                    "I must be dreaming! For a moment I thought I saw a castle."
+                    But he wasn't dreaming.
+                    There, in front of him stood a beautiful big castle!
+                    "I will ask for food and a bed for the night. I am so tired and hungry! And tomorrow someone will
+                    show me the way home."
+                    He went through the enormous gates, into the garden, and left his horse in the stable.
+                    There were no other horses in there, but there was some food.
+                    Then he walked up to the castle door. It was open.
+                    "That's strange! I wonder who lives here."</p>
+            </div>
+        </div>
+
+        <div class="inline">
+            <label>Savol Berish</label>
+            <label>email
+                <input type="email" placeholder="input your email "></label>
+            <label>password
+                <input type="password" placeholder="input your password"></label>
+            <label>savollar
+                <input type="text" placeholder="write your questions"></label>
+            <button>check</button>
+        </div>
+
+    </div>
+    <footer>
+        <p>Created by Sardorxon</p>
+        <img src="{% static 'images/Batman.png' %}" alt="Company Logo">
+    </footer>
+
+</body>
+
+</html>
