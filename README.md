@@ -77,8 +77,7 @@ Loyihani ishga tushirish uchun quyidagi bosqichlarni bajaring:
     python manage.py runserver
     ```
 
-## Foydalanish
-Loyihani ishga tushirgandan so'ng, brauzerda `http://127.0.0.1:8000/` manziliga o'ting.
+
 
 Agar qo'shimcha savollaringiz yoki muammolar yuzaga kelsa, iltimos, muallif bilan bog'laning yoki loyiha repozitoriyasiga qarang.
 Uzur men yozgan commitlarim o'chib ketti
