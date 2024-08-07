@@ -42,8 +42,7 @@ HTML shablon fayllari saqlanadigan papka.
 - **photo/**: Rasmlar saqlanadigan papka.
 - **indexs.html**: Asosiy sahifa shabloni.
 
-### 5. db.sqlite3
-SQLite3 ma'lumotlar bazasi fayli. Bu yerda loyiha uchun barcha ma'lumotlar saqlanadi.
+
 
 ### 6. manage.py
 Django boshqaruv skripti. Bu skript loyihani boshqarish uchun ishlatiladi (masalan, serverni ishga tushirish, migratsiyalarni qo'llash va boshqalar).
@@ -82,3 +81,5 @@ Loyihani ishga tushirish uchun quyidagi bosqichlarni bajaring:
 Loyihani ishga tushirgandan so'ng, brauzerda `http://127.0.0.1:8000/` manziliga o'ting.
 
 Agar qo'shimcha savollaringiz yoki muammolar yuzaga kelsa, iltimos, muallif bilan bog'laning yoki loyiha repozitoriyasiga qarang.
+Uzur men yozgan commitlarim o'chib ketti
+
