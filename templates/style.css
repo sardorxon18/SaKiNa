@@ -1,0 +1,162 @@
+body h1 {
+    margin: 0;
+}
+
+.cls {
+    clear: both;
+}
+
+.box {
+    color: red;
+    margin: 0 5%; /* Marginni to'g'ri qo'llang */
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+p {
+    color: #333;
+}
+
+.marquee b {
+    font-size: larger;
+}
+
+.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    animation: marquee 30s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.headline {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 230px;
+    background-image: url("images/programms.jpg");
+    /* To'g'ri yo'lni tekshiring */
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.headline h1,
+.headline h2 {
+    text-align: center;
+    color: crimson;
+}
+
+.headline h5 {
+    text-align: center;
+}
+
+.headline h4 {
+    text-align: right;
+}
+
+.topic {
+    background-color: darkslategray;
+    margin: 0 auto; /* To'g'ri margin o'rnatish */
+    padding: 5px 0;
+}
+
+.topic ul {
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #252525;
+    padding: 20px;
+}
+
+.topic ul li {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 9px;
+}
+
+.topic ul li a:hover {
+    color: aqua;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.text1 {
+    flex: 7;
+}
+
+.text2 {
+    margin-top: 20px;
+    flex: 3;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.inline {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Kenglikni belgilash */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0069d9;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+}
+
+img {
+    width: 40px; /* Rasmning kengligi */
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML File</title>
+    <!-- Static files for CSS and JS should be loaded here if needed -->
+    {% load static %}
+</head>
+
+<body>
+    <h1 style="text-align: center;">Html code yozish</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus libero, velit totam officia quisquam veniam
+        enim dolorum sapiente iure maxime eius quis facilis odio porro neque vel facere quae debitis.
+        <strong>Jirni qilish huddi 'b> /b> tegiga o'xshab</strong>
+        <b>Salom</b>
+        <a href="https://google.com" target='_blank'>boshqa joyga yo'naltirish yangi tab page ochgan holda</a>
+    </p>
+
+    <!-- Matin ichiga link qo'yish bu yerda "href yo'naltirmoqchi bo'lgan yoyimizni adressi yotadi -->
+    <!-- ancar tag bu paragrifni ichida qo'ysak ham bo'ladi -->
+    <a href="https://www.youtube.com/">YouTube</a>
+
+    <!-- ul unorder list li - list item -->
+    <p>Kun tartibi</p>
+    <ul>
+        <!-- ul o'zi uchun alohida container ochib huddi jadvalday qilib beradi -->
+        <li>Darsini qil</li>
+        <!-- li esa • qo'yib beradi -->
+        <li>Vazifani bajar</li>
+        <li>Video darslikni qil</li>
+        <li>Ingliz tilini o'qi</li>
+    </ul>
+    <!-- jadvaldan chiqib ketadi -->
+    <li>Uxla!!!</li>
+    <ol>
+        <!-- ol o'zi uchun alohida container ochib huddi jadvalday qilib beradi raqamlab beradi -->
+        <li>Darsini qil</li>
+        <!-- li esa 1 qo'yib beradi -->
+        <li>Vazifani bajar</li>
+        <li>Video darslikni qil</li>
+        <li>Ingliz tilini o'qi</li>
+        <li>Uxla!!!</li>
+    </ol>
+    <li>Uxla!!!</li>
+
+    <table>
+        <!-- Jadval ochish -->
+        <thead>
+            <!-- Jadval uchun column name -->
+            <tr>
+                <!-- Columnlarni nomerish va hohlaganimizcha ochib olish -->
+                <th>Name</th>
+                <!-- Columnlarni B qilib chiqarsih -->
+                <th>Last name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>Phone number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Jadvalni ichidagi ma'lumotlar -->
+            <tr>
+                <td>Sardorxon</td>
+                <td>Akarmov</td>
+                <td><a href="mailto:sardorxonakramov@gmail.com"><b>sardorxonakramov@gmail.com</b></a></td>
+                <td>22</td>
+                <td>91 188 89 90</td>
+            </tr>
+            <tr>
+                <td>SomeOne</td>
+                <td>Someone</td>
+                <td><a href="mailto:example@example.com">example@example.com</a></td>
+                <td>21</td>
+                <td>91 123 36 63</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <br>
+    <form>
+        <label for="Fname">First name:
+            <input type="text" placeholder="Name" id="Fname" name='Fname'>
+        </label>
+        <br><br>
+        <label for="password">
+            Password:
+            <input type="password" name="password" id="password" placeholder="Your Password">
+        </label>
+        <br><br>
+        <label for="age">Your age:
+            <input type="number" placeholder="Your age" id="age" name="age">
+        </label>
+        <label for="isMarried">Is Married
+            <input type="checkbox" id="isMarried" name="isMarried">
+        </label>
+        <br><br>
+        <label for="gender">
+            Gender:
+            <input type="radio" id="male" name="person" value="male"> Male
+            <input type="radio" id="female" name="person" value="female"> Female
+        </label>
+        <br>
+        <label for="Country">Where are you from?
+            <select name="Country" id="Country">
+                <option value="us">USA</option>
+                <option value="uk">United Kingdom</option>
+                <option value="uz">Uzbekistan</option>
+            </select>
+        </label>
+    </form>
+    <hr>
+    <form>
+        <img src="{% static 'images/cat.jpg' %}" alt="Image" width="400"/>
+    </form>
+</body>
+
+</html>
